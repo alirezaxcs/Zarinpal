@@ -1,0 +1,31 @@
+﻿@model ZarinpalPayment.Models.Payment
+@{
+    ViewData["Title"] = "پرداخت";
+}
+<br />
+<div class="row">
+    <div class="col-xs-12">
+        <h3 class="text-success">پرداخت با اتصال به درگاه گرفته شده از زرین پال</h3>
+    </div>
+    <div class="col-xs-12">
+        <form asp-controller="Payment" asp-action="Payment" method="post">
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control"/>
+            </div>
+            <button type="submit" class="btn btn-success">پرداخت</button>
+        </form>
+    </div>
+</div>

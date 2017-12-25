@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <Description>آزمایش درگاه پرداخت زرین پال
+Zarinpal payment gateway test</Description>
+    <Authors>Mohammad Farazmaan</Authors>
+    <Version>2.0.3</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ApplicationIcon>zarinpal.ico</ApplicationIcon>
+    <PackageIconUrl>http://uupload.ir/files/ldx_image_png_286x199_pixels.png</PackageIconUrl>
+    <Company>Zarinpal</Company>
+    <PackageTags>sandbox, zarinpal, zarinpalsandbox</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>www.zarinpal.com</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
