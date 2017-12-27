@@ -6,4 +6,6 @@
 PM> Install-Package ZarinpalSandbox -Version 2.0.3
 ```
 نصب پکیج زرین پال
+```ruby
 PM> Install-Package Zarinpal -Version 2.0.3
+```
